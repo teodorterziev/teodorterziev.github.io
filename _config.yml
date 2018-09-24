@@ -25,13 +25,13 @@ github_username:  noirblade
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
+plugins_dir:
   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
    - Gemfile
    - Gemfile.lock
    - node_modules
