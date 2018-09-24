@@ -19,8 +19,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Programming in C, Python, Java. DataScience and BigData administration
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
+#twitter_username: ""
 github_username:  noirblade
+linkedin_username: teodor-terziev-developer
 
 # Build settings
 markdown: kramdown
