@@ -26,7 +26,7 @@ linkedin_username: teodor-terziev-developer
 # Build settings
 markdown: kramdown
 theme: minima
-plugins_dir:
+plugins:
   - jekyll-feed
 
 # Exclude from processing.
