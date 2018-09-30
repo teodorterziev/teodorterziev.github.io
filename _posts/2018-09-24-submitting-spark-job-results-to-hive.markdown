@@ -99,6 +99,26 @@ What the script does is basically:
 
 8.	In the last step we just write the Data Frame directly to Hive
 
+Submitting the job
+===
+Usually spark-submit command is automatically set in the user $PATH but if not just `cd` to the script 
+```
+$ cd /usr/hdp/current/spark-client
+```
+### Through YARN
+We can use YARN for resource manager which is the recommended (production) method for submitting the job
+```
+$ spark-submit --master yarn --deploy-mode client ./wordcount.py
+```
+
+### Local submit
+Usually suitable for local testing. Will execute the job faster but won't get any benefits for multi node environment.
+
+The `local[*]` setting will tell spark to use all available CPU cores. 
+```
+$ spark-submit --master local[*] --deploy-mode client ./wordcount.py
+```
+
 Possible issues
 ====
 ```
