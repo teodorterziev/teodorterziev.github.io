@@ -5,8 +5,6 @@ date:   2018-10-04 18:23:00 +0300
 categories: BigData Spark Hive
 ---
 
-# Bachelor students count percentage change from 2012 by subject. Analytics using Apache Hive and Spark
-
 Data source [National statistical institute](http://nsi.bg/en) - Bulgaria. Source [file](http://nsi.bg/en/content/4897/students-educational-qualification-degree-and-narrow-field-education) 
 
 This is just an exercise showing how we can use Hive and Spark for creating some interested statistics from randomly picked public data reports.
