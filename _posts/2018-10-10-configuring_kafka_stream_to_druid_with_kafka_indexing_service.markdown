@@ -81,13 +81,13 @@ Then we need to prepare the configuration for the Druid Supervisor which in my c
 
 I am not going to through all parameters but the important ones are:
 
-`type` - Should be `kafka`
+* `type` - Should be `kafka`
 
-`dataSource` - The name of the Druid data source. Just put whatever name you feel appropriate.
+* `dataSource` - The name of the Druid data source. Just put whatever name you feel appropriate.
 
-`parser` - This section basically explains what the scheme of our database. Here we have only two fields `time` and `channel`. The `time` column will be used for Druid partitioning.
+* `parser` - This section basically explains what the scheme of our database. Here we have only two fields `time` and `channel`. The `time` column will be used for Druid partitioning.
 
-`ioConfig` - The important settings in this section are `topic` the name of the topic that we created in Kafka and `bootstrap.servers` which is the Kafka broker listener that we defined in `listeners` parameter in Kafka configuration.
+* `ioConfig` - The important settings in this section are `topic` the name of the topic that we created in Kafka and `bootstrap.servers` which is the Kafka broker listener that we defined in `listeners` parameter in Kafka configuration.
 
 More about [Druid Ingestion Setup parameters](http://druid.io/docs/latest/ingestion/ingestion-spec.html).
 
