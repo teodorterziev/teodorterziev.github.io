@@ -1,4 +1,4 @@
-# [NoirBlade blog](https://noirblade.github.io)
+# [NoirBlade blog](https://teodorterziev.github.io)
 
 What to expect here?
 ===
@@ -9,4 +9,4 @@ I will start with some basic thinks about BigData processing and will see how it
 
 This blog is built with [Jekyll](https://jekyllrb.com)
 
-You can visit the page on [noirblade.github.io](https://noirblade.github.io)
+You can visit the page on [teodorterziev.github.io](https://teodorterziev.github.io)
